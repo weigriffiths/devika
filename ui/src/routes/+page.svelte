@@ -83,8 +83,10 @@
   <Resizable.PaneGroup direction="horizontal" class="max-w-full">
     <Resizable.Pane defaultSize={50}>
       <div class="flex flex-col gap-2 w-full h-full pr-4">
+        <!-- CHAT WINDOW -->
         <MessageContainer />
         <MessageInput />
+        <!-- SPREADSHEET WINDOW -->
       </div>
     </Resizable.Pane>
     {#if resizeEnabled}
